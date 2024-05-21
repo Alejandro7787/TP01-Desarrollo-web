@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="contenedor-section">
+        <h1>Formulario de contacto</h1>
+     <div class="map">
+        <iframe src="https://dipika.carto.com/builder/4689b5db-23d8-4eb0-9712-91aa03e7a0d1/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B-47.5172006978394%2C-151.17187500000003%5D%2C%22sw%22%3A%5B73.07384351277217%2C173.67187500000003%5D%2C%22center%22%3A%5B26.509904531413927%2C11.25%5D%2C%22zoom%22%3A3%7D%7D" width="300" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </div>   
+     <div class="form-contenedor">
+        <h2 class="titulo-form">Conectate con nosotros</h2>
+        <form action="https://formspree.io/f/mleqznzl" method="post" class="form">
+            <input class="box item1" type="text" name="nombres" placeholder="Apellido y Nombre" autocomplete="off"><!--es el ejemplo para colocar en el campo-->
+            <select name="ciudad" class="box item2"><!--Desplegable para opciones-->
+                <option value="">Ciudad</option>
+                <option value="">San Isidro</option>
+                <option value="">Capital</option>
+            </select>
+            <input class="box item3" type="tel" name="telefono" placeholder="Número de teléfono" autocomplete="off">
+            <select class="box item4" name="provincias" >
+                <option value="">Provincia</option>
+                <option value="">Catamarca</option>
+                <option value="">Cordoba</option>
+                <option value="">Buenos Aires</option>
+            </select>
+            <input class="box item5" type="email" name="email" placeholder="Correo electronico" autocomplete="off">
+            <textarea class="box item6" name="mensaje" cols="30" rows="5"></textarea>
+            <input class="submit" type="submit" name="enviar" value="Enviar">
+        </form>
+     </div>
+    </section>
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a target="_blank" href="https://www.facebook.com/?locale=es_LA"><i class="fa-brands fa-facebook"></i></a>
+                <a target="_blank" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" href="https://twitter.com/?lang=es"><i class="fa-brands fa-x"></i></a>
+                <a target="_blank" href="https://support.google.com/answer/2451065?hl=en"><i class="fa-brands fa-google-plus"></i></a>
+                <a target="_blank" href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul><li><a href="index.html#articulos">Articulos</a></li>
+                    <li><a href="index.html">Sobre nosotros</a></li>
+                    <li><a href="formulario.html">Contacto</a></li>
+                </ul>
+            </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2024; Diseñado por <span class="designer">AAlmiron</span></p>
+        </div>
+    </footer>
+</body>
+</html>
